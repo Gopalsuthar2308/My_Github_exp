@@ -5,13 +5,13 @@ clear
  setenv WORKING_PATH `pwd`
 
  # Creating the experiment folder for ls command
- mkdir -p $WORKING_PATH/experiment/ls
+ mkdir -p $WORKING_PATH/gpl_directory
 
- cd $WORKING_PATH/experiment/ls
+ cd $WORKING_PATH/gpl_directory
  ## # Creating certain files and folders
- mkdir -p dir1/ dir2
- touch file1.txt
- touch file2.txt
+ #mkdir -p dir1/ dir2
+ #touch file1.txt
+ #touch file2.txt
 
  # ls command display the full list or content of your directory.
  echo ""
