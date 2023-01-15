@@ -1,0 +1,2 @@
+s = "gopal"
+print s
