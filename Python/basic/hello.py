@@ -1,3 +1,3 @@
-print 'Hello'    #this is a comment
+print('Hello')    #this is a comment
 
-print "My name is gopal"
+print("My name is gopal")
