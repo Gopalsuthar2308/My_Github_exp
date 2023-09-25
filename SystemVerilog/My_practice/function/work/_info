@@ -1,0 +1,180 @@
+m255
+K4
+z2
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+Z0 d/hwetools/work_area/frontend/gopal_b7/git_test1/My_Github_exp/My_Github_exp/SystemVerilog/My_practice/function
+T_opt
+!s110 1679736830
+Vn:@zOzY_c3Q8Ka:8[QO1g0
+04 15 4 work function_static fast 0
+=1-a4badb503ddd-641ebffd-d365d-4f23
+Z1 o-quiet -auto_acc_if_foreign -work work
+Z2 tCvgOpt 0
+n@_opt
+Z3 OE;O;10.6c;65
+R0
+T_opt1
+!s110 1679737071
+VbGjfJcHSW=HSID2_30QfK1
+04 15 4 work static_function fast 0
+=1-a4badb503ddd-641ec0ef-9c10-5054
+R1
+R2
+n@_opt1
+R3
+R0
+T_opt2
+!s110 1686205282
+V1LC7PzTHX==d<V@4SNQ9O0
+04 4 4 work test fast 0
+=1-a4badb503de1-64817362-a7aaf-244f
+R1
+R2
+n@_opt2
+R3
+vfunction_static
+Z4 DXx6 sv_std 3 std 0 22 AD7iAPLo6nTIKk<N0eo=D3
+DXx4 work 23 function_static_sv_unit 0 22 3<[jVLKR1A3]@?ZgVF]<I2
+Z5 VDg1SIo80bB@j0V0VzS_@n1
+r1
+!s85 0
+31
+!i10b 1
+!s100 3HDSfYTcY^[i5@N[Yz5Dl1
+IB`MJLA2_dXZXTzihJIDiM1
+!s105 function_static_sv_unit
+S1
+R0
+Z6 w1679736776
+Z7 8function_static.sv
+Z8 Ffunction_static.sv
+Z9 L0 17
+Z10 OE;L;10.6c;65
+Z11 !s108 1679736789.000000
+Z12 !s107 function_static.sv|
+Z13 !s90 -sv|function_static.sv|
+!i113 0
+Z14 o-sv -L mtiAvm -L mtiRnm -L mtiOvm -L mtiUvm -L mtiUPF -L infact
+R2
+Xfunction_static_sv_unit
+R4
+V3<[jVLKR1A3]@?ZgVF]<I2
+r1
+!s85 0
+31
+!i10b 1
+!s100 Td@lbS14oG5nglA2gZzQ13
+I3<[jVLKR1A3]@?ZgVF]<I2
+!i103 1
+S1
+R0
+R6
+R7
+R8
+L0 3
+R10
+R11
+R12
+R13
+!i113 0
+R14
+R2
+Xinside_range_sv_unit
+R4
+V69OQ:?^;:I27U22iOZ5Og0
+r1
+!s85 0
+31
+!i10b 1
+!s100 igBEG0nk4C:]DMgV]dINM2
+I69OQ:?^;:I27U22iOZ5Og0
+!i103 1
+S1
+R0
+Z15 w1686205251
+Z16 8inside_range.sv
+Z17 Finside_range.sv
+L0 1
+R10
+Z18 !s108 1686205253.000000
+Z19 !s107 inside_range.sv|
+Z20 !s90 -sv|inside_range.sv|
+!i113 0
+R14
+R2
+vstatic_function
+R4
+DXx4 work 23 static_function_sv_unit 0 22 V;LIzUj]V0BVhWVXGJB?T2
+R5
+r1
+!s85 0
+31
+!i10b 1
+!s100 BDE7RbcX0L=9^Mg=EILC62
+I<KgJZ:fZCE28^@gCXR5hC2
+!s105 static_function_sv_unit
+S1
+R0
+Z21 w1679737023
+Z22 8static_function.sv
+Z23 Fstatic_function.sv
+R9
+R10
+Z24 !s108 1679737056.000000
+Z25 !s107 static_function.sv|
+Z26 !s90 -sv|static_function.sv|
+!i113 0
+R14
+R2
+Xstatic_function_sv_unit
+R4
+VV;LIzUj]V0BVhWVXGJB?T2
+r1
+!s85 0
+31
+!i10b 1
+!s100 QC96BRJ06fgA0DNcfl5TA3
+IV;LIzUj]V0BVhWVXGJB?T2
+!i103 1
+S1
+R0
+R21
+R22
+R23
+L0 3
+R10
+R24
+R25
+R26
+!i113 0
+R14
+R2
+vtest
+R4
+DXx4 work 20 inside_range_sv_unit 0 22 69OQ:?^;:I27U22iOZ5Og0
+R5
+r1
+!s85 0
+31
+!i10b 1
+!s100 j:X7EACYWIC@CjI8m`dj91
+I5X6Ce6YOKnH]`M1C9@d6o3
+!s105 inside_range_sv_unit
+S1
+R0
+R15
+R16
+R17
+L0 10
+R10
+R18
+R19
+R20
+!i113 0
+R14
+R2

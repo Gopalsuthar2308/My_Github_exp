@@ -5,7 +5,7 @@ always #5 clk = ~clk; //clock generation
 
 initial begin
   a=0; b=0;
-  #15 a=1; b=0;  //15
+  #12 a=1; b=0;  //15
   #10 a=0; b=0;  //25
   #10 a=1; b=1;  //35
   #10 a=0; b=0;  //45

@@ -1,0 +1,44 @@
+m255
+K4
+z2
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+Z0 d/hwetools/work_area/frontend/gopal_b7/git_test1/My_Github_exp/My_Github_exp/SystemVerilog
+T_opt
+!s110 1688988702
+V5@o=go]=;@aG>BkkffdP`1
+04 2 4 work tb fast 0
+=1-a4badb503ddf-64abec1e-cf9e1-6f71
+o-quiet -auto_acc_if_foreign -work work
+Z1 tCvgOpt 0
+n@_opt
+OE;O;10.6c;65
+R0
+vtb
+DXx6 sv_std 3 std 0 22 AD7iAPLo6nTIKk<N0eo=D3
+!s110 1688992895
+!i10b 1
+!s100 PIE_;nmjhkQce<3?QcHzV0
+IKzYcz?b5jMlW<8fm8l]Y]1
+VDg1SIo80bB@j0V0VzS_@n1
+!s105 example1_sv_unit
+S1
+R0
+w1688988657
+8example1.sv
+Fexample1.sv
+L0 1
+OE;L;10.6c;65
+r1
+!s85 0
+31
+!s108 1688992895.000000
+!s107 example1.sv|
+!s90 -sv|example1.sv|
+!i113 0
+o-sv -L mtiAvm -L mtiRnm -L mtiOvm -L mtiUvm -L mtiUPF -L infact
+R1

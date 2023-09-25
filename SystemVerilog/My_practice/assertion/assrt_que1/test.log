@@ -1,0 +1,9 @@
+QuestaSim vlog 10.6c Compiler 2017.07 Jul 25 2017
+Start time: 23:22:38 on Feb 22,2023
+vlog -sv "+acc" "+cover" "+fcover" -l test.log assrt_q1.sv 
+-- Compiling module assertion_test
+
+Top level modules:
+	assertion_test
+End time: 23:22:38 on Feb 22,2023, Elapsed time: 0:00:00
+Errors: 0, Warnings: 0

@@ -77,57 +77,56 @@ end
 datainout=32'd30; 
 return datainout;
 end
-                                                                                                                                                          endcase
-                                                                                                                                                        end
-                                                                                                                                                      endfunction
+                                                                                                                  endcase
+end
+endfunction
 
-                                                                                                                                                      virtual function [7:0] calc_addr(string s_addr);
-                                                                                                                                                    begin
-                                                                                                                                                      case(s_addr)
-                                                                                                                                                        "random":begin 
-                                                                                                                                                        addrinout=$random;
-                                                                                                                                                        return addrinout;
-                                                                                                                                                      end                                                                                                    
-                                                                                                                                                      "increment":begin 
-                                                                                                                                                      return addrinout++;
-                                                                                                                                                    end
-                                                                                                                                                    "dec":begin  
-                                                                                                                                                    return datainout--;
-                                                                                                                                                  end  
-                                                                                                                                                  "user":begin 
-                                                                                                                                                  addrinout=32'd40;
-                                                                                                                                                  return addrinout; 
-                                                                                                                                                end     
-                                                                                                                                              endcase
-                                                                                                                                            end
-                                                                                                                                          endfunction
-endclass
-
-
-/*
-* class seq extends uvm_sequence #(seq_item);
-* `uvm_object_utils(seq)
-* seq_item pkt;
-* function new(string name="seq");
-* super.new(name);
-* endfunction
-* task body();
-* pkt=seq_item::type_id::create("pkt");
-* repeat(10)
-* begin
-  * #20
-  * start_item(pkt);
-  * pkt.WR_RD=1;
-  * assert(pkt.randomize());
-  * finish_item(pkt);
-  * #8
-  * start_item(pkt);
-  * pkt.WR_RD=0;
-  * finish_item(pkt);
-  * `uvm_info("seq",$sformatf("ADDR=%d  DATA=%d ",pkt.ADDR,pkt.DATA),UVM_NONE);
-  * $display("----------------------------------------");
-  * end
-  * endtask
-  * endclass
-  * */
+virtual function [7:0] calc_addr(string s_addr);
+begin
+  case(s_addr)
+"random":begin
+  addrinout=$random;  
+  return addrinout;  
+end  
+"increment":begin 
+ "increment":begin 
+  return addrinout++;
+   end
+  "dec":begin  
+  return datainout--;
+  end  
+  "user":begin 
+  addrinout=32'd40;
+  return addrinout; 
+  end     
+  endcase
+  end
+  endfunction
+  endclass
+                    /*
+                                                                                                                                        * class seq extends uvm_sequence #(seq_item);
+                                                                                                                                        * `uvm_object_utils(seq)
+                                                                                                                                        * seq_item pkt;
+                                                                                                                                        * function new(string name="seq");
+                                                                                                                                        * super.new(name);
+                                                                                                                                        * endfunction
+                                                                                                                                        * task body();
+                                                                                                                                        * pkt=seq_item::type_id::create("pkt");
+                                                                                                                                        * repeat(10)
+                                                                                                                                        * begin
+                                                                                                                                          * #20
+                                                                                                                                          * start_item(pkt);
+                                                                                                                                          * pkt.WR_RD=1;
+                                                                                                                                          * assert(pkt.randomize());
+                                                                                                                                          * finish_item(pkt);
+                                                                                                                                          * #8
+                                                                                                                                          * start_item(pkt);
+                                                                                                                                          * pkt.WR_RD=0;
+                                                                                                                                          * finish_item(pkt);
+                                                                                                                                          * `uvm_info("seq",$sformatf("ADDR=%d  DATA=%d ",pkt.ADDR,pkt.DATA),UVM_NONE);
+                                                                                                                                          * $display("----------------------------------------");
+                                                                                                                                          * end
+                                                                                                                                          * endtask
+                                                                                                                                          * endclass
+                                                                                                                                          * */
 

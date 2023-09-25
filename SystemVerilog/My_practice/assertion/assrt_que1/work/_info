@@ -1,0 +1,44 @@
+m255
+K4
+z2
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+Z0 d/hwetools/work_area/frontend/gopal_b7/git_test1/My_Github_exp/My_Github_exp/SystemVerilog/My_practice/assertion/assrt_que1
+T_opt
+!s110 1677088359
+V0eaVC]S9a7HDc^bRARhF62
+04 14 4 work assertion_test fast 0
+=1-a4badb503ddf-63f65667-b980a-3149
+o-quiet -auto_acc_if_foreign -work work +acc=npr
+Z1 tCvgOpt 0
+n@_opt
+OE;O;10.6c;65
+vassertion_test
+DXx6 sv_std 3 std 0 22 AD7iAPLo6nTIKk<N0eo=D3
+!s110 1677088358
+!i10b 1
+!s100 PV@TNSGR73=]U2DO54`MD0
+I@`>KK@zIe^V753=SaaY_Z1
+VDg1SIo80bB@j0V0VzS_@n1
+!s105 assrt_q1_sv_unit
+S1
+R0
+w1677088356
+8assrt_q1.sv
+Fassrt_q1.sv
+L0 1
+OE;L;10.6c;65
+r1
+!s85 0
+31
+!s108 1677088358.000000
+!s107 assrt_q1.sv|
+!s90 -sv|+acc|+cover|+fcover|-l|test.log|assrt_q1.sv|
+!i113 0
+!s102 +cover
+o-sv +acc +cover +fcover -L mtiAvm -L mtiRnm -L mtiOvm -L mtiUvm -L mtiUPF -L infact
+R1

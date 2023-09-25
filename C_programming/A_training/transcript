@@ -1,0 +1,72 @@
+# vsim test -c -do "run -all;exit" 
+# Start time: 10:44:00 on Aug 04,2023
+# ** Note: (vsim-3813) Design is being optimized due to module recompilation...
+# ** Warning: fifo_vclass.sv(14): (vopt-2250) Function "is_full" has no return value assignment.
+# ** Warning: fifo_vclass.sv(17): (vopt-2250) Function "is_empty" has no return value assignment.
+# //  Questa Sim
+# //  Version 10.6c linux Jul 25 2017
+# //
+# //  Copyright 1991-2017 Mentor Graphics Corporation
+# //  All Rights Reserved.
+# //
+# //  QuestaSim and its associated documentation contain trade
+# //  secrets and commercial or financial information that are the property of
+# //  Mentor Graphics Corporation and are privileged, confidential,
+# //  and exempt from disclosure under the Freedom of Information Act,
+# //  5 U.S.C. Section 552. Furthermore, this information
+# //  is prohibited from disclosure under the Trade Secrets Act,
+# //  18 U.S.C. Section 1905.
+# //
+# Loading sv_std.std
+# Loading work.fifo_vclass_sv_unit(fast)
+# Loading work.test(fast)
+# run -all
+# fifo_write = 56016 count = 1 write_ptr =1, mem = 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 56016
+# fifo_write = 49699 count = 2 write_ptr =2, mem = 0 0 0 0 0 0 0 0 0 0 0 0 0 0 49699 56016
+# fifo_write = 9533 count = 3 write_ptr =3, mem = 0 0 0 0 0 0 0 0 0 0 0 0 0 9533 49699 56016
+# fifo_write = 45260 count = 4 write_ptr =4, mem = 0 0 0 0 0 0 0 0 0 0 0 0 45260 9533 49699 56016
+# fifo_write = 32067 count = 5 write_ptr =5, mem = 0 0 0 0 0 0 0 0 0 0 0 32067 45260 9533 49699 56016
+# fifo_write = 27257 count = 6 write_ptr =6, mem = 0 0 0 0 0 0 0 0 0 0 27257 32067 45260 9533 49699 56016
+# fifo_write = 26877 count = 7 write_ptr =7, mem = 0 0 0 0 0 0 0 0 0 26877 27257 32067 45260 9533 49699 56016
+# fifo_write = 9893 count = 8 write_ptr =8, mem = 0 0 0 0 0 0 0 0 9893 26877 27257 32067 45260 9533 49699 56016
+# fifo_write = 31299 count = 9 write_ptr =9, mem = 0 0 0 0 0 0 0 31299 9893 26877 27257 32067 45260 9533 49699 56016
+# fifo_write = 13509 count = 10 write_ptr =10, mem = 0 0 0 0 0 0 13509 31299 9893 26877 27257 32067 45260 9533 49699 56016
+# fifo_write = 55408 count = 11 write_ptr =11, mem = 0 0 0 0 0 55408 13509 31299 9893 26877 27257 32067 45260 9533 49699 56016
+# fifo_write = 40953 count = 12 write_ptr =12, mem = 0 0 0 0 40953 55408 13509 31299 9893 26877 27257 32067 45260 9533 49699 56016
+# fifo_write = 48485 count = 13 write_ptr =13, mem = 0 0 0 48485 40953 55408 13509 31299 9893 26877 27257 32067 45260 9533 49699 56016
+# fifo_write = 30762 count = 14 write_ptr =14, mem = 0 0 30762 48485 40953 55408 13509 31299 9893 26877 27257 32067 45260 9533 49699 56016
+# fifo_write = 48884 count = 15 write_ptr =15, mem = 0 48884 30762 48485 40953 55408 13509 31299 9893 26877 27257 32067 45260 9533 49699 56016
+# fifo_write = 52259 count = 16 write_ptr =16, mem = 52259 48884 30762 48485 40953 55408 13509 31299 9893 26877 27257 32067 45260 9533 49699 56016
+# fifo full
+# fifo full
+# fifo full
+# fifo full
+# 
+# mem = 56016 49699 9533 45260 32067 27257 26877 9893 31299 13509 55408 40953 48485 30762 48884 52259 
+# 
+# inside peek function fifo_read = 56016, read_ptr = 1, mem = 52259 48884 30762 48485 40953 55408 13509 31299 9893 26877 27257 32067 45260 9533 49699 56016
+# inside peek function fifo_read = 49699, read_ptr = 2, mem = 52259 48884 30762 48485 40953 55408 13509 31299 9893 26877 27257 32067 45260 9533 49699 56016
+# inside peek function fifo_read = 9533, read_ptr = 3, mem = 52259 48884 30762 48485 40953 55408 13509 31299 9893 26877 27257 32067 45260 9533 49699 56016
+# inside peek function fifo_read = 45260, read_ptr = 4, mem = 52259 48884 30762 48485 40953 55408 13509 31299 9893 26877 27257 32067 45260 9533 49699 56016
+# inside peek function fifo_read = 32067, read_ptr = 5, mem = 52259 48884 30762 48485 40953 55408 13509 31299 9893 26877 27257 32067 45260 9533 49699 56016
+# inside peek function fifo_read = 27257, read_ptr = 6, mem = 52259 48884 30762 48485 40953 55408 13509 31299 9893 26877 27257 32067 45260 9533 49699 56016
+# inside peek function fifo_read = 26877, read_ptr = 7, mem = 52259 48884 30762 48485 40953 55408 13509 31299 9893 26877 27257 32067 45260 9533 49699 56016
+# inside peek function fifo_read = 9893, read_ptr = 8, mem = 52259 48884 30762 48485 40953 55408 13509 31299 9893 26877 27257 32067 45260 9533 49699 56016
+# inside peek function fifo_read = 31299, read_ptr = 9, mem = 52259 48884 30762 48485 40953 55408 13509 31299 9893 26877 27257 32067 45260 9533 49699 56016
+# inside peek function fifo_read = 13509, read_ptr = 10, mem = 52259 48884 30762 48485 40953 55408 13509 31299 9893 26877 27257 32067 45260 9533 49699 56016
+# inside peek function fifo_read = 55408, read_ptr = 11, mem = 52259 48884 30762 48485 40953 55408 13509 31299 9893 26877 27257 32067 45260 9533 49699 56016
+# inside peek function fifo_read = 40953, read_ptr = 12, mem = 52259 48884 30762 48485 40953 55408 13509 31299 9893 26877 27257 32067 45260 9533 49699 56016
+# inside peek function fifo_read = 48485, read_ptr = 13, mem = 52259 48884 30762 48485 40953 55408 13509 31299 9893 26877 27257 32067 45260 9533 49699 56016
+# inside peek function fifo_read = 30762, read_ptr = 14, mem = 52259 48884 30762 48485 40953 55408 13509 31299 9893 26877 27257 32067 45260 9533 49699 56016
+# inside peek function fifo_read = 48884, read_ptr = 15, mem = 52259 48884 30762 48485 40953 55408 13509 31299 9893 26877 27257 32067 45260 9533 49699 56016
+# inside peek function fifo_read = 52259, read_ptr = 16, mem = 52259 48884 30762 48485 40953 55408 13509 31299 9893 26877 27257 32067 45260 9533 49699 56016
+# inside peek function fifo_read = 0, read_ptr = 0, mem = 52259 48884 30762 48485 40953 55408 13509 31299 9893 26877 27257 32067 45260 9533 49699 56016
+# inside peek function fifo_read = 56016, read_ptr = 1, mem = 52259 48884 30762 48485 40953 55408 13509 31299 9893 26877 27257 32067 45260 9533 49699 56016
+# inside peek function fifo_read = 49699, read_ptr = 2, mem = 52259 48884 30762 48485 40953 55408 13509 31299 9893 26877 27257 32067 45260 9533 49699 56016
+# inside peek function fifo_read = 9533, read_ptr = 3, mem = 52259 48884 30762 48485 40953 55408 13509 31299 9893 26877 27257 32067 45260 9533 49699 56016
+# 
+# mem = 56016 49699 9533 45260 32067 27257 26877 9893 31299 13509 55408 40953 48485 30762 48884 52259 
+# 
+# exit
+# End time: 10:44:01 on Aug 04,2023, Elapsed time: 0:00:01
+# Errors: 0, Warnings: 2
